@@ -34,6 +34,7 @@ This shows the ubuntu commands that need to be done in order for a smooth instal
 9  : ```pip freeze > requirements.txt```  
      ```pip install -r requirements.txt```  
      ```sudo apt install libcairo2-dev pkg-config python3-dev```  
+     ```sudo apt-get install python3-tk ```  
      ```pip install traci matplotlib pandas scipy seaborn scikit-learn dill networkx similaritymeasures```
      
 10 : ```mkdir subscribe```
