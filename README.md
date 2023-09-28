@@ -1,4 +1,5 @@
 # spatialcov
+
 spatial coverage
 
 The goal of the spatial coverage project is to take a set of routes for a series of autonomous vehicles with on board sensors, and create a new set of routes for those vehicles with an increased diversity of routes taken while still having the same starting and ending points. This will increase the time spent making measurements with the sensors, and also increase the diversity of the sensing data obtained.
@@ -9,7 +10,8 @@ After creating the inital routes, the fréchet distances between each of the rou
 
 With the utility of each vehicle calculated, a nash equilibrium can then be created that maximizes the utility of each vehicle by altering the paths taken for each vehicle's route.
 
-### Updated Instructions
+## Updated Instructions
+
 This shows the ubuntu commands that need to be done in order for a smooth installation
 
 1  : Install Latest Ubuntu VM  
@@ -34,11 +36,13 @@ This shows the ubuntu commands that need to be done in order for a smooth instal
 9  : ```pip freeze > requirements.txt```  
      ```pip install -r requirements.txt```  
      ```sudo apt install libcairo2-dev pkg-config python3-dev```  
-     ```sudo apt-get install python3-tk ```  
+     ```sudo apt-get install python3-tk```  
      ```pip install traci matplotlib pandas scipy seaborn scikit-learn dill networkx similaritymeasures```
-     
+  
 10 : ```mkdir subscribe```
      ```cd ./subscribe```
      ```mkdir simulations```
 
-11 : To run go back to the original files (```cd ../../```) in code and do ```python3 main.py```
+11 : To run go back to the original files (```cd ../../```) in code and do ```python3 best_main.py```
+
+The best main does have different options that can be done that change the experiment that is being done.
